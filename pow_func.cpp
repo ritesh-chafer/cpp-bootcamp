@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-double power(double, int);          //declarartion
+double power(double, int);         //declarartion
 
 int main(){
     int base, exponent;
@@ -15,7 +15,8 @@ int main(){
     cout<<myPower<<endl;
 }
 
-double power(double base, int exponent){
+double power(double base, int exponent)      //definition
+{   
     double result = 1;
     for(int i = 0; i<exponent; i++){
         result = result * base;
