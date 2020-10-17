@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main(){
@@ -12,7 +11,7 @@ int main(){
     unsigned int bb;
     unsigned long cc;
     unsigned long long dd;
-    
+
     cout<<sizeof(short)<<endl;
     cout<<sizeof(int)<<endl;
     cout<<sizeof(long)<<endl;
