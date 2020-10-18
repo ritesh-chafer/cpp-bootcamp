@@ -2,7 +2,10 @@
 
 using namespace std;
 int main()
-{
+{   
+    string id;
+    cin>>id;
+    cout<<id<<endl;
     string greeting = "Hi, This is Alex!";
     cout<<greeting<<endl;
     string Say = greeting + " Good Morning";
